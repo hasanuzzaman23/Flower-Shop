@@ -1,0 +1,38 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.komla {
+    height: 100vh;
+  display: flex;
+  background-color: antiquewhite;
+  width: 1920px;
+  height: 850px;
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  align-items: center;
+  text-align: center;
+}
+.parent{
+    margin-top: 10px;
+    padding-right: 50px;
+    font-size: 40px;
+}
+.flower{
+    justify-content:space-between;
+    
+    
+    
+}
+.small-font{
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+.btn{
+    padding: 15px;
+    width: 150px;
+background: #E55473;
+-webkit-text-fill-color: aliceblue;
+font-size: 20px;
+}
