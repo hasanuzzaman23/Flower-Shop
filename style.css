@@ -3,7 +3,7 @@
   margin: 0px;
 }
 .komla {
-    height: 100vh;
+  height: 100vh;
   display: flex;
   background-color: antiquewhite;
   width: 1920px;
@@ -13,26 +13,67 @@
   align-items: center;
   text-align: center;
 }
-.parent{
-    margin-top: 10px;
-    padding-right: 50px;
-    font-size: 40px;
+.parent {
+  margin-top: 10px;
+  padding-right: 50px;
+  font-size: 40px;
+  align-content: baseline;
 }
-.flower{
-    justify-content:space-between;
-    
-    
-    
+.flower {
+  justify-content: center;
 }
-.small-font{
-    margin-top: 10px;
-    padding: 20px;
-    font-size: 20px;
+.small-font {
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 20px;
 }
-.btn{
-    padding: 15px;
-    width: 150px;
-background: #E55473;
--webkit-text-fill-color: aliceblue;
-font-size: 20px;
+.btn {
+  padding: 15px;
+  width: 150px;
+  background: #e55473;
+  -webkit-text-fill-color: aliceblue;
+  font-size: 20px;
+}
+.second-pera {
+}
+.featured {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.text {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.three-flower {
+    justify-content: center;
+}
+.pink {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 464px;
+height: 538px;
+flex-shrink: 0;
+}
+.pinki {
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+width: 464px;
+height: 538px;
+flex-shrink: 0;
+}
+.pinku{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+width: 464px;
+height: 538px;
 }
