@@ -14,13 +14,14 @@
   text-align: center;
 }
 .parent {
-  margin-top: 10px;
-  padding-right: 50px;
+  margin-bottom: 50px;
+  padding-right: 300px;
   font-size: 40px;
   align-content: baseline;
 }
 .flower {
-  justify-content: center;
+  justify-content: end;
+  margin-bottom: -50px;
 }
 .small-font {
   margin-top: 10px;
@@ -34,7 +35,15 @@
   -webkit-text-fill-color: aliceblue;
   font-size: 20px;
 }
+
 .second-pera {
+  position: absolute;
+  padding: 40px;
+}
+.flowers-text {
+  display: center;
+  margin-top: 80px;
+  margin-bottom: -80px;
 }
 .featured {
   color: #272727;
@@ -55,25 +64,48 @@
   line-height: 30px;
 }
 .three-flower {
-    justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 800px;
+  margin: 10px;
+
+  .card {
+    margin: 10px;
+  }
 }
 .pink {
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   width: 464px;
-height: 538px;
-flex-shrink: 0;
+  height: 538px;
+  flex-shrink: 0;
 }
 .pinki {
-    border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
-width: 464px;
-height: 538px;
-flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
 }
-.pinku{
-    border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
-width: 464px;
-height: 538px;
+.pinku {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  width: 464px;
+  height: 538px;
+}
+
+.folower-name {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 30px;
+  color: #e55473;
+}
+.third-pera{
+  
+  width: 1920px;
+  height: 850px;
+
+
 }
