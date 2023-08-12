@@ -191,7 +191,7 @@ body {
   margin-bottom: 130px;
 }
 .last-img {
-  background-image: url("/flower-asset/Rectangle-9.png");
+  background-image: url("../flower-asset/react.png");
   display: flex;
   justify-content: center;
   align-items: center;
